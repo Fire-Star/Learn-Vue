@@ -76,7 +76,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <div class="close" data-dismiss="modal">&times;</div>
-                        是否删除数据？
+                        是否{{del=="all"? "删除全部":"删除"}}数据？
                     </div>
                     <div class="modal-body text-right">
                         <button class="btn btn-primary" data-dismiss="modal" @click="delFunc">确定</button>

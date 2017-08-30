@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e33fcd6-f571-4ca4-b262-f93fb26de36e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/留言板todolist-DEMO/index.html" afterPath="$PROJECT_DIR$/留言板todolist-DEMO/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/留言板todolist-DEMO/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="316">
+              <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
               <folding>
                 <element signature="e#3171#3178#1" expanded="true" />
               </folding>
@@ -609,12 +607,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504092214565</updated>
-      <workItem from="1504092218335" duration="13198000" />
+      <workItem from="1504092218335" duration="13793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13198000" />
+    <option name="totallyTimeSpent" value="13793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -708,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/留言板todolist-DEMO/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="36" column="94" lean-forward="false" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="316">
+          <caret line="84" column="52" lean-forward="true" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
           <folding>
             <element signature="e#3171#3178#1" expanded="true" />
           </folding>
