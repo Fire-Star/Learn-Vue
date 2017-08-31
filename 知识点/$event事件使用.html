@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$event的使用</title>
+    <!-- 引入 BootStrap 全家桶 -->
+    <script src="../res/js/jquery-3.2.1.min.js"></script>
+    <script src="../res/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../res/css/bootstrap.min.css"/>
+
+    <!-- 引入Vue.js -->
+    <script src="../res/js/vue.min.js"></script>
+</head>
+<body>
+    <div class="container app">
+        <div @click="show(msg,$event)"><!-- 这就是传说中的冒泡事件！！！ -->
+            <button class="btn btn-success" @click="show(msg,$event)">快快点击我</button>
+        </div>
+    </div>
+</body>
+<script>
+    let data = {
+        msg:'你好啊！'
+    };
+    let vm = new Vue({
+        el:'.app',
+        data:data,
+        methods:{
+            show(msg,ev){
+                alert(msg);
+                alert("这是坐标："+ev.clientX);
+            }
+        }
+    });
+</script>
+</html>
